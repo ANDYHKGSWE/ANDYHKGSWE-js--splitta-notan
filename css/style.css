@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #001f4f;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    position: absolute;
+    left: 50%;
+    top: -43px;
+    text-align: center;
+    color: fff;
+    width: 80%;
+    transform: translateX(-50%);
+    background: #FF5500;
+    font-weight: 400;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+h2 {
+    padding-top: 5%;
+    font-size: 15px;
+    text-align: center;
+}
+
+h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    height: 80%;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 20px;
+}
+
+
+input, select {
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #0074d9;
+    padding: 10px;
+}
+
+input:focus, select:focus {
+    border: 1px solid #0074d9;
+    outline: none;
+}
+
+button {
+    margin-top: 650px;
+    margin-left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 150px;
+    height: 50px;
+    background: gray;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form {
+    width: 100%;
+    height: 150px;
+    display: block;
+    color: black;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        background: pink;
+    }
+
+    .container {
+        display: block;
+        width: 350px;
+    }
+
+    input, select {
+        width: 100%;
+    }
+
+    h1 {
+        width: 300px;
+    }
+
+    h2 {
+        padding-top: 0;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background: green;
+    }
+
+    .container {
+        display: block;
+        width: 350px;
+    }
+
+    input, select {
+        width: 100%;
+    }
+
+    h1 {
+        width: 300px;
+    }
+
+    h2 {
+        padding-top: 0;
+    }
+    
+}
